@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-button{
+  padding:20px ;
+}
+
+.apple{
+  width: 450px;
+  height: 350px;
+}
+.google{
+  width: 450px;
+  height: 350px;
+}
+
+.sony{
+  width: 450px;
+  height: 350px;
+}
+
+.microsft{
+  width: 450px;
+  height: 350px;
+}
+.samsung{
+  width: 450px;
+  height: 350px;
+}
+
+.huawei{
+  width: 450px;
+  height: 350px;
+}
+
+
+.grid{
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-template-columns:50% 50%;
+  grid-gap: 30px;
+  padding: 150px;
+}
+.grid > div{
+  border: 10px solid rgb(219, 215, 175);
+  /* padding-left: 20px ;
+  padding-right:20px ; */
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  /* background-color: rgb(235, 204, 159); */
+}
+.btn{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  width: 40%;
+  height: 20%;
+  font-size:25px ;
+}
+
+.btn:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.grids{
+ 
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-template-columns:auto auto auto auto;
+  grid-gap: 10px;
+  padding: 150px;
+  }
