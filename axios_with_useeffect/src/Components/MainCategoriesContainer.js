@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import "./MainCategoriesContainer.css"
 import axios from "axios";
 
@@ -36,6 +38,14 @@ function MainCategoriesContainer({setLink})
     const searchMovies = () => {
         console.log("searchMovies Not yet implemented")
     }
+
+    useEffect(() => {
+        console.log("useEffect apply ")
+        axios
+        .get("https://api.themoviedb.org/3/movie/popular?api_key=9605b226360bf8f3f03d5da3c0a1f662")
+        .then((response) => setLink(response.data.results))
+        .catch((error) => console.log(error));
+    },[]);
 
     return <>   
                 {/* {listOfCategoriesAfterMap()} */}
