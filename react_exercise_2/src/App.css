@@ -1,0 +1,71 @@
+body{
+  background-image: url("https://blog.rvdbrg.com/wp-content/uploads/2017/03/fanart-exodus-1024x576.jpg");
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+  display: block;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: rgba(0, 0, 0, 0.253);}
+  
+  ul.topnav li a.active {background-color: #04AA6D;
+  height: 28px;
+  }
+  
+  ul.topnav li.right {float: right;}
+  
+.item {
+  flex-direction: left;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(218, 209, 209, 0.555);
+}
+
+.item img {
+  display: block;
+  margin: auto;
+}
+
+.cardName {
+  font-size: 16px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+}
+.items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 100px;
+  grid-row-gap:20px;
+  margin: 20px 0;
+  justify-content: center;
+  text-align: center;
+  
+}
+.fav-button {
+  border: none;
+  height: 26px;
+  width: 120px;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;}
