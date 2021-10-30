@@ -1,0 +1,25 @@
+/* grid */
+/* grid */
+/* grid */
+.main-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    background-color: bisque;
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+    @media (max-width: 768px) { 
+        
+        
+
+    .main-grid-container{
+        grid-template-columns: 1fr 1fr  ;
+        padding: 5px ;
+    }
+    /* #movies-grid-container {
+        grid-template-columns: 40% 40% ;
+    } */
+    
+}
