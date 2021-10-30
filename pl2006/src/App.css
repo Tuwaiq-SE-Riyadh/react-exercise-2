@@ -7,6 +7,39 @@
   align-content: center;
   text-align: center;
 }
+
+.active{
+  margin: 1px;
+  border-style:solid;
+  border-color: burlywood;
+  color: burlywood;
+}
+
+.listU {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 0ch;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.listl {
+  float: left;
+}
+
+.listlA {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listl:hover {
+  background-color: #111;
+}
+
 .page{
   display: grid;
   grid-template-columns: 1fr;

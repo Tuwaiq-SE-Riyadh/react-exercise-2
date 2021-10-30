@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import GetTeams from "./components/getTeams"
+import Head from './components/head';
 // https://api-football-standings.azharimm.site/leagues/eng.1/standings?season=2006&sort=asc
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
     
     <>
     <div className="page">
-
+      <Head/>
+      
     <img src="https://pbs.twimg.com/media/EVO_0Q7U8AE3UjL.jpg" alt="" className="imgOpt"/>
     <div className="displayteam">
     <GetTeams GetT={teams} setTeams={setTeams}/>
